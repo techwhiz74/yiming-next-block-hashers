@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.gradient {
+    background: linear-gradient(90.04deg, #132144 0.03%, #461D67 99.98%);
+}
+.backGround{
+    
+    background: linear-gradient(112.95deg, #001AA2 0.42%, #9D0EE0 99.3%);
+    height: 100vh;
+}
+.curveImg{
+    background: url('/curve.png');
+    height: 100vh;
+}
+
+
+/* -------------------------------------- */
+
+.animate-img {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(6px);
+    }
+    100% {
+      transform: translateY(-6px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(6px);
+    }
+    100%{
+      transform: translateY(-6px);
+    }
+  }
+
+

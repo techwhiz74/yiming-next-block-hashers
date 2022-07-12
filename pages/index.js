@@ -2,30 +2,32 @@ import Head from 'next/head'
 import Image from 'next/image'
 export default function Home() {
   return (
-    <>
+    <div className='backGround '>
     
 
 
 {/* BODY */}
-<section class="text-gray-600 body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-        <br class="hidden lg:inline-block"/>readymade gluten
+<section className="text-gray-600 body-font curveImg ">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center lg:ml-40">
+      <p className='font-semibold text-green-500'>FAST. SECURE.</p>
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Decentralized Options 
+
+        <br className="hidden lg:inline-block"/>Crowdfunding Platform
       </h1>
-      <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+      <p className="mb-8 leading-relaxed text-gray-100">The discovery of women-led businesses and opportunities have always been a challenge especially when it comes funding and matching with the right investors.</p>
+      <div className="">
+        <button className=" text-2xl font-bold inline-flex text-white rounded-3xl bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600  ">Start Now</button>
+        
       </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <Image class="object-cover object-center rounded" alt="hero" src={'/pic1.jpg'} height={600} width={720}></Image>
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 animate-img">
+      <Image className="object-cover object-center rounded" alt="hero" src={'/Computer.png'} height={550} width={760}></Image>
     </div>
   </div>
 </section>
 
 
-    </>
+    </div>
   )
 }
