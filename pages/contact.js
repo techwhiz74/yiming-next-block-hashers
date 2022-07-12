@@ -43,55 +43,105 @@ const contact = () => {
 
                     </div>
 
-                    <div className="w-full md:w-1/2 relative z-0 px-8 md:px-0 md:py-16">
+                    <div className="w-full md:w-1/2 relative z-0 px-8 md:px-0 md:py-16 ">
                         <div className="bg-blue-900 text-white rounded-b md:rounded-b-none md:rounded-r shadow-lg overflow-hidden">
-                            <div className="text-lg font-medium uppercase p-8 text-center border-b border-blue-800 tracking-wide">Enterprise</div>
-                            <div className="text-center text-sm sm:text-md max-w-sm mx-auto mt-8 text-blue-200 px-8 lg:px-0">
-                                Stripe offers everything needed to run an online business at scale. Get in touch for details.
+                            <div className="text-lg font-medium uppercase p-8 text-center border-b border-blue-800 tracking-wide">How can i help you ?</div>
+
+
+
+
+
+
+                            <div className="max-w-2xl mx-auto">
+
+                                <div id="default-carousel" className="relative " data-carousel="slide" >
+
+                                    <div className="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+                                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                                            <span className="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
+                                            <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" className="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
+                                        </div>
+
+                                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                                            <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" className="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
+                                        </div>
+
+                                        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                                            <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" className="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..." />
+                                        </div>
+                                    </div>
+
+                                    <div className="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                                        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                                        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                                        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                                    </div>
+
+                                    <button type="button" className="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+                                        <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
+                                            <span className="hidden">Previous</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" className="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                                        <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                            <svg className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
+                                            <span className="hidden">Next</span>
+                                        </span>
+                                    </button>
+                                </div>
+
+
+                                <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
                             </div>
-                            <div className="mt-8 border border-blue-800 mx-8 lg:mx-16 flex flex-wrap">
-                                <div className="flex items-center justify-center w-1/2 text-center p-4 border-r border-b border-blue-800">Account management</div>
-                                <div className="flex items-center justify-center w-1/2 text-center p-4 border-b border-blue-800">Volume discounts</div>
-                                <div className="flex items-center justify-center w-1/2 text-center p-4 border-r border-blue-800">Migration assistance</div>
-                                <div className="flex items-center justify-center w-1/2 text-center p-4">Dedicated support</div>
-                            </div>
-                            <a className="flex items-center justify-center bg-blue-800 hover:bg-blue-700 p-8 text-md font-semibold text-gray-300 uppercase mt-8" href="#">
-                                <span>Contact sales</span>
-                                <span className="font-medium text-gray-300 ml-2">➔</span>
-                            </a>
+
+
+
+
+
+
+
+
+
+
                         </div>
                     </div>
                 </div>
             </section>
 
 
-            <section className="flex sm:flex-shrink items-center justify-center h-screen bg-gradient-to-br from-indigo-500 to-indigo-800">
+            <section className=" relative block md:flex  items-center    sm:flex-shrink  justify-center lg:h-screen  bg-gradient-to-br from-indigo-500 to-indigo-800">
 
                 {/* ---Ayandip Garai--- */}
-                <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
-                    <Image className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="/Work/ayandip.jpg" alt="product designer" height={200} width={200} />
-                    <h1 className="text-lg text-gray-700"> Ayandip Garai </h1>
-                    <h3 className="text-sm text-gray-400 "> Creative Director </h3>
-                    <p className="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <button className="bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide">Hire Me</button>
+                <div className='py-5 m-auto '>
+                    <div className="bg-white font-semibold m-auto  text-center rounded-3xl border shadow-lg p-10 max-w-xs ">
+                        <Image className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="/Work/ayandip.jpg" alt="product designer" height={200} width={200} />
+                        <h1 className="text-lg text-gray-700"> Ayandip Garai </h1>
+                        <h3 className="text-sm text-gray-400 "> Creative Director </h3>
+                        <p className="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <button className="bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide">Hire Me</button>
+                    </div>
                 </div>
-
                 {/* ---Partha Singha Roy--- */}
-                <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
-                <Image className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="/Work/partha.jpg" alt="product designer" height={200} width={200} />
-                    <h1 className="text-lg text-gray-700"> Partha Singha Roy </h1>
-                    <h3 className="text-sm text-gray-400 "> Creative Director </h3>
-                    <p className="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <button className="bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide">Hire Me</button>
+                <div className='py-5 m-auto '>
+                    <div className="bg-white font-semibold m-auto text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+                        <Image className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="/Work/partha.jpg" alt="product designer" height={200} width={200} />
+                        <h1 className="text-lg text-gray-700"> Partha Singha Roy </h1>
+                        <h3 className="text-sm text-gray-400 "> Creative Director </h3>
+                        <p className="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <button className="bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide">Hire Me</button>
+                    </div>
                 </div>
 
                 {/* ---Sunirban Ranjit--- */}
-                <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
-                <Image className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="/Work/sunirban.jpg" alt="product designer" height={200} width={200} />
-                    <h1 className="text-lg text-gray-700"> Sunirban Ranjit </h1>
-                    <h3 className="text-sm text-gray-400 "> Creative Director </h3>
-                    <p className="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <button className="bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide">Hire Me</button>
+                <div className='py-5 m-auto '>
+                    <div className="bg-white font-semibold m-auto text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+                        <Image className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="/Work/sunirban.jpg" alt="product designer" height={200} width={200} />
+                        <h1 className="text-lg text-gray-700"> Sunirban Ranjit </h1>
+                        <h3 className="text-sm text-gray-400 "> Creative Director </h3>
+                        <p className="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <button className="bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide">Hire Me</button>
+                    </div>
                 </div>
             </section>
         </div>
