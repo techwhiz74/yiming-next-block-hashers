@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "flowbite": "^1.4.7",
     "next": "12.2.2",
     "nextjs-progressbar": "^0.0.14",
     "react": "18.2.0",
