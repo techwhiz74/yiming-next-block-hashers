@@ -1,11 +1,10 @@
 import React from 'react'
+import Image from 'next/image'
 
 const contact = () => {
     return (
         <div>
-            <div className="antialiased max-w-6xl mx-auto my-12 bg-gray-300 px-8">
-
-
+            <section className="antialiased max-w-6xl mx-auto my-12 bg-gray-300 px-8">
                 <div className="relative block md:flex items-center">
                     <div className="w-full md:w-1/2 relative z-1 bg-gray-100 rounded shadow-lg overflow-hidden">
                         <div className="text-xl font-medium text-green-500 uppercase px-8 py-3 text-center border-b border-gray-200 tracking-wide">Contact Us</div>
@@ -44,10 +43,6 @@ const contact = () => {
 
                     </div>
 
-
-
-
-
                     <div className="w-full md:w-1/2 relative z-0 px-8 md:px-0 md:py-16">
                         <div className="bg-blue-900 text-white rounded-b md:rounded-b-none md:rounded-r shadow-lg overflow-hidden">
                             <div className="text-lg font-medium uppercase p-8 text-center border-b border-blue-800 tracking-wide">Enterprise</div>
@@ -67,18 +62,14 @@ const contact = () => {
                         </div>
                     </div>
                 </div>
-
-
-            </div>
-
-
+            </section>
 
 
             <section className="flex sm:flex-shrink items-center justify-center h-screen bg-gradient-to-br from-indigo-500 to-indigo-800">
 
                 {/* ---Ayandip Garai--- */}
                 <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
-                    <img className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="product designer" />
+                    <Image className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="/Work/ayandip.jpg" alt="product designer" height={200} width={200} />
                     <h1 className="text-lg text-gray-700"> Ayandip Garai </h1>
                     <h3 className="text-sm text-gray-400 "> Creative Director </h3>
                     <p className="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -87,7 +78,7 @@ const contact = () => {
 
                 {/* ---Partha Singha Roy--- */}
                 <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
-                    <img className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="product designer" />
+                <Image className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="/Work/partha.jpg" alt="product designer" height={200} width={200} />
                     <h1 className="text-lg text-gray-700"> Partha Singha Roy </h1>
                     <h3 className="text-sm text-gray-400 "> Creative Director </h3>
                     <p className="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -96,7 +87,7 @@ const contact = () => {
 
                 {/* ---Sunirban Ranjit--- */}
                 <div className="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
-                    <img className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="product designer" />
+                <Image className="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="/Work/sunirban.jpg" alt="product designer" height={200} width={200} />
                     <h1 className="text-lg text-gray-700"> Sunirban Ranjit </h1>
                     <h3 className="text-sm text-gray-400 "> Creative Director </h3>
                     <p className="text-xs text-gray-400 mt-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>

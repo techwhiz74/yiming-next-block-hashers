@@ -21,9 +21,9 @@ const Navbar = () => {
             <span className="ml-3 text-2xl text-white font-bold">BLOCK-#ERS</span>
           </a>
           <nav className=" text-white  md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center  ">
-            <a className="mr-5  hover:text-gray-300"><Link href={'/'} >Home</Link></a>
-            <a className="mr-5 hover:text-gray-300"><Link href={'/about'}>About</Link></a>
-            <a className="mr-5 hover:text-gray-300"><Link href={'/contact'} >Contact Us</Link></a>
+          <Link href={'/'} ><a className="mr-5  hover:text-gray-300">Home</a></Link>
+          <Link href={'/about'}><a className="mr-5 hover:text-gray-300">About</a></Link>
+          <Link href={'/contact'} ><a className="mr-5 hover:text-gray-300">Contact Us</a></Link>
           </nav>
           <button className="px-6  bg-green-500 inline-flex items-center text-white border-0 py-1 focus:outline-none  rounded-3xl text-lg mt-4 md:mt-0">
             Wallet
