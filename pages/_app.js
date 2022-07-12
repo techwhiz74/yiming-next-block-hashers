@@ -2,10 +2,9 @@ import '../styles/globals.css'
 import Navbar from '../components/Navbar'
 import {Footer} from '../components/Footer'
 import NextNProgress from "nextjs-progressbar";
-
 import { useState, useEffect } from 'react'
-
 import { useRouter } from 'next/router'
+
 
 function MyApp({ Component, pageProps }) {
 
@@ -25,8 +24,8 @@ function MyApp({ Component, pageProps }) {
 
   return <>
 <NextNProgress
- color='#f11946'
- // color='#1f6feb'
+//  color='#ba03fc'
+ color='#1f6feb'
  progress={progress}
  waitingTime={500}
  onLoaderFinished={() => setProgress(0)}
