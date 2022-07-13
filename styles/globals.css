@@ -41,4 +41,10 @@
     }
   }
 
+/* about page css */
 
+.bg-02{
+  background: url('/bg02.jpg');
+  background-repeat: no-repeat;
+ background-size: cover;
+}

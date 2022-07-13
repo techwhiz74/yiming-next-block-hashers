@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 export const Footer = () => {
   return (
     <div className='bottom-0 '>
@@ -77,7 +78,7 @@ export const Footer = () => {
           <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
             <Link href="/">
               <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-
+              <Image src={'/logo123.png'} height={40} width={40} ></Image>
             
                 <span className="ml-3 text-xl text-blue-800"><strong>BLOCK-#ERS</strong></span>
               </a>
