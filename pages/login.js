@@ -173,7 +173,7 @@ localStorage.setItem('token',res.token)
                 <span className="absolute left-0 inset-y-0 flex items-center pl-3">
 
                 </span>
-                Sign in
+                Log in
               </button>
             </div>
           </form>
