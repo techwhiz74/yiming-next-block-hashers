@@ -53,7 +53,7 @@ const Signup = () => {
 
     console.log(response);
     let res = await response.json()
-    console.log(res);
+    // console.log(res);
 
     setName('')
     setEmail('')

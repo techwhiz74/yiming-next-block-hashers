@@ -10,7 +10,7 @@ const connectDB = handler=> async (req,res)=>{
 //  await mongoose.connect(process.env.MONGO_URL)
 mongoose.connect(process.env.MONGO_URL)
 .then(() => {
-    console.log(`You are now connected to the MongoDB Atlas`)
+    // console.log(`You are now connected to the MongoDB Atlas`)
     return handler(req,res)
 })
 .catch((err)=>{
