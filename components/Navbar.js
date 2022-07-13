@@ -16,10 +16,8 @@ const Navbar = () => {
           <Link href={'/about'}><a className="mr-5 hover:text-gray-300">About</a></Link>
           <Link href={'/contact'} ><a className="mr-5 hover:text-gray-300">Contact Us</a></Link>
           </nav>
-          <button className="px-6  bg-green-500 inline-flex items-center text-white border-0 py-1 focus:outline-none  rounded-3xl text-lg mt-4 md:mt-0">
-            Wallet
-            
-          </button>
+          <Link href={'/login'} ><button className="mx-3 px-6  bg-blue-500 inline-flex items-center text-white border-0 py-1 focus:outline-none  rounded-3xl text-lg mt-4 md:mt-0">Login</button></Link>
+          <button className=" px-6  bg-green-500 inline-flex items-center text-white border-0 py-1 focus:outline-none  rounded-3xl text-lg mt-4 md:mt-0">Wallet</button>
           <svg
               fill="none"
               stroke="white"
