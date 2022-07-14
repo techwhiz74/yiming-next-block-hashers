@@ -71,7 +71,7 @@ localStorage.setItem('token',res.token)
 
       //set tiem out for router.push
       setTimeout(() => {
-        router.push("/")
+        router.push("/dashboard")
       }, 1000);
 
 
