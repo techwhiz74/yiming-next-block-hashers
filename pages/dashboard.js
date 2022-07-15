@@ -1,5 +1,5 @@
 import React from 'react'
-import Tab from '../components/Tab'
+import Tab from '../components/Cards/Tab'
 import Small from '../components/Cards/Small'
 import Chartbar from '../components/Cards/Chartbar'
 import Details from '../components/Cards/Details'
@@ -10,7 +10,6 @@ import { useRouter } from 'next/router'
 const dashboard = ({logout}) => {
 
   const router = useRouter();
-
 
   useEffect(() => {
     
