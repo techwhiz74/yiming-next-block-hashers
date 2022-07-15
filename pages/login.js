@@ -8,7 +8,9 @@ import { useRouter } from 'next/router';
 
 
 
-const Login = () => {
+const Login = ({user}) => {
+
+ 
 
   //userouter use
   const router = useRouter()
@@ -48,7 +50,10 @@ const Login = () => {
 
     // console.log(response);
     let res = await response.json()
-    console.log(res);
+    if(res){
+      user.value = false;
+    }
+    // console.log(res);
 
     setEmail('')
     setPassword('')
