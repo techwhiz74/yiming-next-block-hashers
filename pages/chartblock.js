@@ -1,9 +1,10 @@
 import React from 'react'
-import Chartbar from '../components/Cards/Chartbar'
+import Services from '../components/Services'
+
 const chartblock = () => {
   return (
-    <div>
-        <Chartbar />
+    <div >
+       <Services />
     </div>
   )
 }
