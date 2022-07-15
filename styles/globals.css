@@ -51,7 +51,10 @@ box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.25);
   background: #1e1e2e;
 }
 
-
+/* body background */
+.BBackground{
+  background: linear-gradient(180deg, rgba(106, 138, 255, 0.79) 0%, rgba(189, 93, 205, 0.23) 100%);
+}
 
 
 
