@@ -1,5 +1,24 @@
 import React from 'react'
-import { HorizontalBar } from 'react-chartjs-2';
+import { Line } from 'react-chartjs-2';
+import {Chart, ArcElement,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js'
+
+Chart.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 const Chartbar = function() {
 
@@ -13,25 +32,36 @@ const Chartbar = function() {
         borderWidth: 1,
         hoverBackgroundColor: 'rgba(255,0,54,0.4)',
         hoverBorderColor: 'rgb(0,88,101)',
-        data: [65, 59, 80, 81, 56, 55, 40]
+        fillColor: "#68f7f7",
+        strokeColor: "#ffb88c",
+        pointColor: "#fff",
+        pointStrokeColor: "#ffb88c",
+        pointHighlightFill: "#ffb88c",
+        pointHighlightStroke: "#fff",
+        data: [0, 10, 5, 2, 20, 30, 45],
       }
     ]
   };
 
 
   return (
-    <div>
-
-      
-      <HorizontalBar
+    <div >
+<div className='ml-5  md:max-w-4xl max-w-4xl bg-white w-full rounded-lg shadow-xl'>
+      <Line
         data={data}
-        width={400}
-        height={400}
+        options={{
+          responsive: true,
+          maintainAspectRatio: true,
+        }}
       />
-
+    </div>
     </div>
   )
 }
 
 export default Chartbar
  
+
+
+
+
