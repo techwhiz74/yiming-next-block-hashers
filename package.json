@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@taquito/taquito": "^13.0.1",
     "chart.js": "^3.8.0",
     "crypto-js": "^4.1.1",
     "dotenv": "^16.0.1",
-    "faker": "^6.6.6",
     "flowbite": "^1.4.7",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.4",
@@ -22,8 +22,7 @@
     "react-chartjs-2": "^4.3.1",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
-    "react-toastify": "^9.0.5",
-    "tailwind-scrollbar-hide": "^1.1.7"
+    "react-toastify": "^9.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",

@@ -1,4 +1,4 @@
-import Head from 'next/head'
+
 import Image from 'next/image'
 import Body from '../components/Body'
 import Services from '../components/Services'
