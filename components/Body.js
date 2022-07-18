@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 const Body = () => {
     return (
         <div className="min-h-screen p-10 pt-15 h-100 BBackground">
